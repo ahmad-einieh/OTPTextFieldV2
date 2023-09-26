@@ -3,6 +3,8 @@ import 'package:flutter/services.dart';
 
 import 'otp_field_style_v2.dart';
 
+enum FieldStyle { underline, box }
+
 class OTPTextFieldV2 extends StatefulWidget {
   /// TextField Controller
   final OtpFieldControllerV2? controller;

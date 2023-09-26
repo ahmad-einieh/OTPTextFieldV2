@@ -27,5 +27,3 @@ class OtpFieldStyle {
       this.enabledBorderColor = Colors.black26,
       this.errorBorderColor = Colors.red});
 }
-
-enum FieldStyle { underline, box }
