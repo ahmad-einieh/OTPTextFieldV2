@@ -13,7 +13,7 @@ ___
 
 </br>
 
-[![Pub]()]()
+[![Pub](https://img.shields.io/pub/v/otp_text_field_v2)](https://pub.dev/packages/otp_text_field_v2)
 
 
 ## 📱Screenshots
