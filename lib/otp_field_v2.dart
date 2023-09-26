@@ -68,8 +68,13 @@ class OTPTextFieldV2 extends StatefulWidget {
   /// Change cursor color
   final Color? cursorColor;
 
+  /// Change auto Focus on first field
+  final bool autoFocus;
+
+  /// Input Formatter
   final List<TextInputFormatter>? inputFormatter;
 
+  /// OTPTextField Constructor
   const OTPTextFieldV2({
     Key? key,
     this.length = 4,
@@ -94,6 +99,7 @@ class OTPTextFieldV2 extends StatefulWidget {
     this.onCompleted,
     this.textDirection,
     this.cursorColor,
+    this.autoFocus = false,
   })  : assert(length > 1),
         super(key: key);
 
@@ -201,6 +207,7 @@ class OTPTextFieldV2State extends State<OTPTextFieldV2> {
         style: widget.style,
         inputFormatters: widget.inputFormatter,
         maxLength: 1,
+        autofocus: index == 0 && widget.autoFocus,
         focusNode: _focusNodes[index],
         obscureText: widget.obscureText,
         decoration: InputDecoration(
