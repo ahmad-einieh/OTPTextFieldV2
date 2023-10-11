@@ -206,7 +206,6 @@ class OTPTextFieldV2State extends State<OTPTextFieldV2> {
         textAlign: TextAlign.center,
         style: widget.style,
         inputFormatters: widget.inputFormatter,
-        maxLength: 1,
         autofocus: index == 0 && widget.autoFocus,
         focusNode: _focusNodes[index],
         obscureText: widget.obscureText,
