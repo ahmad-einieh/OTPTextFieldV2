@@ -27,15 +27,19 @@ ___
 Import the following package in your dart file
 
 ```dart
-import 'package:otp_text_field/otp_text_field_v2.dart';
+import 'package:otp_text_field_v2/otp_text_field_v2.dart';
 ```
 OR 
 
 ```dart
-import 'package:otp_text_field/otp_field_v2.dart';
+import 'package:otp_text_field_v2/otp_field_v2.dart';
 ```
 
 ## 👨‍💻 Usage
+
+Add `otp_text_field_v2` to your Flutter application's dependencies (for example `flutter pub add otp_text_field_v2`). This package's SDK constraint is Dart `>=2.17.6 <4.0.0`; check the resolved release against your Flutter version. Local contributors can run `flutter pub get` and `flutter test`; these commands were not executed for this documentation refresh.
+
+This is an input widget, not an OTP-generation, SMS-delivery, or server-verification service. Verify submitted codes securely in your backend. Upstream attribution, screenshots, and usage examples are retained.
 
 Use the `OTP Text Field V2` Widget
 
@@ -63,5 +67,4 @@ For more detail on usage, check out the example provided.
 ## 🙍🏻‍♂️ Edited BY
 
 * [Ahmad Einieh](https://github.com/ahmad-einieh)
-
 
